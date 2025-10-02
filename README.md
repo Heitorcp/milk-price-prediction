@@ -1,7 +1,6 @@
 # 🥛 Milk Price Prediction Project
 
 [![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Nixtla](https://img.shields.io/badge/Powered%20by-Nixtla-orange.svg)](https://nixtla.github.io/mlforecast/)
 
 > Predicting farmgate milk prices in Brazil using machine learning and time series forecasting techniques.
@@ -89,7 +88,6 @@ The dataset contains monthly time series data with the following indicators:
 Multiple algorithms were tested and compared:
 - **Linear Regression** 📏 Baseline model
 - **Random Forest** 🌳 Ensemble method
-- **Huber Regressor** 🎯 Robust regression
 - **Bayesian Ridge** 🧮 Final selected model
 
 ### 4. 🔮 Covariate Forecasting
@@ -194,22 +192,13 @@ source .venv/bin/activate  # Linux/Mac
 .venv\Scripts\activate     # Windows
 ```
 
-4. **Run the analysis**
-```bash
-python main.py
-```
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
+4. **Explore the analysis**
+With the virtual environment set, you can access all notebooks in the folder `/notebooks` and reproduce the results.
 
 ## 📧 Contact
 
-**Heitor** - [@Heitorcp](https://github.com/Heitorcp)
+**Email** - [Email](heitor.c.pinheiro@hotmail.com)
+**LinkedIn** - [LinkedIn](https://www.linkedin.com/in/heitor-cp/)
 
 ---
 *Made with ❤️ for the Brazilian dairy industry*
