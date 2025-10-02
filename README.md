@@ -197,8 +197,9 @@ With the virtual environment set, you can access all notebooks in the folder `/n
 
 ## 📧 Contact
 
-**Email** - [Email](heitor.c.pinheiro@hotmail.com)
-**LinkedIn** - [LinkedIn](https://www.linkedin.com/in/heitor-cp/)
+[Email](heitor.c.pinheiro@hotmail.com)
+
+[LinkedIn](https://www.linkedin.com/in/heitor-cp/)
 
 ---
 *Made with ❤️ for the Brazilian dairy industry*
