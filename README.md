@@ -19,17 +19,15 @@ Milk price prediction is crucial for:
 
 ### 📊 Exploratory Data Analysis
 
-<!-- Add your EDA images here -->
-
-
+### Supply indicators showing clear trends and seasonality patterns
 ![Supply Indicators](assets/EDA-01.png)
-*Supply indicators showing clear trends and seasonality patterns*
 
+
+### Demand indicators showing clear trends and seasonality patterns as well 
 ![Demand Indicators](assets/EDA-02.png)
-*Demand indicators showing clear trends and seasonality patterns as well*
 
+### Correlation matrix revealing important linear relationships between variables
 ![Correlation Heatmap](assets/heatmap.png)
-*Correlation matrix revealing relationships between variables*
 
 ## 📁 Project Structure
 
