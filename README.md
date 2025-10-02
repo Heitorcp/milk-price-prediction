@@ -49,51 +49,6 @@ milk-prediction/
 └── 📖 README.md             # Project documentation
 ```
 
-## 📈 Dataset & Features
-
-The dataset contains monthly time series data with the following indicators:
-
-### 🔸 Supply Indicators
-- **Milk Production** 🥛 Monthly milk output volumes
-- **Imports/Exports** 🌍 International trade flows
-- **Total Supply** 📦 Overall market availability
-- **Per Capita Supply** 👥 Supply per person metrics
-
-### 🔸 Demand Indicators  
-- **UHT Milk Industry** 🏭 Industry milk price
-- **UHT Milk Market** 🛒 Market milk price
-- **Unemployment Rate** 📊 Economic indicators
-- **Wage Mass** 💵 Purchasing power metrics
-- **Population** 👫 Demographic factors
-
-### 🎯 Target Variable
-- **Farmgate Milk Price** 💰 Price paid by producers (target for prediction)
-
-## 🧠 Methodology
-
-### 1. 🔍 Exploratory Data Analysis (EDA)
-- **Correlation Analysis** 📊 Understanding relationships between variables
-- **Trend & Seasonality** 📈 Identifying temporal patterns
-- **Missing Data Assessment** ❓ Data quality evaluation
-
-### 2. 📈 Regression Modeling
-- **Linear Regression** 📏 Baseline statistical model using OLS
-- **Feature Engineering** 🔧 Creating relevant predictors
-- **Cross-validation** ✅ Model validation with last 12 months
-- **Performance Metrics** 📊 RMSE, MAE, BIAS evaluation
-
-### 3. 🤖 Machine Learning Approaches
-Multiple algorithms were tested and compared:
-- **Linear Regression** 📏 Baseline model
-- **Random Forest** 🌳 Ensemble method
-- **Bayesian Ridge** 🧮 Final selected model
-
-### 4. 🔮 Covariate Forecasting
-Each predictor variable was modeled separately to create future predictions:
-- **Individual time series models** for each covariate
-- **Univariate forecasting** approach
-- **Feature-specific modeling** to capture unique patterns
-
 ## 🏆 Final Model Selection
 
 After extensive experimentation and evaluation, the **Bayesian Ridge Regression** was selected as the final model due to:
@@ -102,23 +57,6 @@ After extensive experimentation and evaluation, the **Bayesian Ridge Regression*
 - ✅ **Robust handling of multicollinearity** among features  
 - ✅ **Uncertainty quantification** through Bayesian approach
 - ✅ **Regularization benefits** preventing overfitting
-
-## 🛠️ Tools & Technologies
-
-### Core Libraries
-- **Nixtla MLForecast** 🚀 Primary forecasting framework
-- **Pandas** 🐼 Data manipulation and analysis
-- **NumPy** 🔢 Numerical computing
-- **Scikit-learn** 🧠 Machine learning algorithms
-
-### Visualization & Analysis  
-- **Plotnine** 📊 Grammar of graphics (ggplot2 style)
-- **Matplotlib** 📈 Statistical plotting
-- **Seaborn** 🎨 Statistical data visualization
-
-### Statistical Modeling
-- **Statsmodels** 📊 Statistical analysis and regression
-- **UtilsForecast** ⚡ Evaluation and utility functions
 
 ## 📊 Results & Performance
 
@@ -169,29 +107,6 @@ The predictions show a **seasonal pattern** with:
 And the historical plot with the predictions below:
 
 ![ML Future Predictions](assets/ML-Final-Predictions.png)
-
-## 🚀 Getting Started
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/Heitorcp/milk-price-prediction.git
-cd milk-price-prediction
-```
-
-2. **Install dependencies**
-```bash
-uv sync
-```
-
-3. **Activate virtual environment**
-```bash
-source .venv/bin/activate  # Linux/Mac
-# or
-.venv\Scripts\activate     # Windows
-```
-
-4. **Explore the analysis**
-With the virtual environment set, you can access all notebooks in the folder `/notebooks` and reproduce the results.
 
 ## 📧 Contact
 
