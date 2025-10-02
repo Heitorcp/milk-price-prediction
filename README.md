@@ -8,7 +8,7 @@
 
 ## 📊 Project Overview
 
-This project focuses on predicting the **farmgate milk price** (`price_to_producer`) for Brazilian milk manufacturers with a forecasting horizon of **one year**. The challenge combines time series analysis with regression modeling to understand the complex dynamics affecting milk pricing in the Brazilian market.
+This project focuses on predicting the **farmgate milk price** (`farmgate_milk_price`) for Brazilian milk manufacturers with a forecasting horizon of **one year**. The challenge combines time series analysis with regression modeling to understand the complex dynamics affecting milk pricing in the Brazilian market.
 
 ### 🎯 Problem Statement
 
@@ -168,7 +168,11 @@ Below we can see the plot of the predictions on the validation set:
 The predictions show a **seasonal pattern** with:
 - 📈 **Peak prices in mid-year** (June-July) reaching ~3.00
 - 📉 **Lower prices at year start/end** (~2.52-2.65)
-- 🔄 **Consistent seasonal cyclicality** reflecting market dynamics 
+- 🔄 **Consistent seasonal cyclicality** reflecting market dynamics  
+
+And the historical plot with the predictions below:
+
+![ML Future Predictions](assets/ML-Final-Predictions.png)
 
 ## 🚀 Getting Started
 
